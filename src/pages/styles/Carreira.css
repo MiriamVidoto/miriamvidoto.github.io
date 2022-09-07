@@ -1,0 +1,13 @@
+.text {
+  background-color: aliceblue;
+  width: 100%;
+  padding: 32px;
+  margin: 32px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.44);
+}
+
+p {
+  font-size: 1.2em;
+  padding: 8px;
+}

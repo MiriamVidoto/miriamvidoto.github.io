@@ -1,0 +1,20 @@
+:root {
+    --cor0: #130233;
+    --cor1: #dbff22;
+    --cor3: #6767af;
+
+    --texto-corrido: 'Roboto', sans-serif;
+    --titulo: 'M PLUS 1 Code', sans-serif;
+    --texto-pequeno: 'Comfortaa', cursive;
+    --destaque: 'Dancing Script', cursive;
+  }
+
+footer {
+  align-items: center;
+  background-color: var(--cor0);
+  color: white;
+  display: flex;
+  height: 15vh;
+  font-size: 1.3em;
+  justify-content: center;
+}
