@@ -1,11 +1,9 @@
 import Header from "../components/Header";
 
-function Skills() {
+export default function Skills() {
   return (
   <>
   <Header />
   </>
   );  
 }
-
-export default Skills;

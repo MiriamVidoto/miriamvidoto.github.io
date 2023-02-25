@@ -1,10 +1,10 @@
-import './styles/Footer.css';
+import { StyledFooter } from "../StyledComponents/StyledFooter";
 
 function Footer() {
   return (
-    <footer>
-      <span>&copy; Miriam Vidoto &#x1f609; - <em>Todos direitos reservados</em></span>
-    </footer>
+    <StyledFooter>
+      <span>&copy; Miriam Vidoto </span>
+    </StyledFooter>
   );
 }
 

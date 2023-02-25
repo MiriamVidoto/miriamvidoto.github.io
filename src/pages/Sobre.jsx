@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 
-export default function Carreira() {
+export default function Sobre() {
   return (
     <>
       <Header />
