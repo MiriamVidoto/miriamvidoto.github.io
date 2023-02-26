@@ -1,5 +1,5 @@
-import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import office from '../images/office-light.gif';
 import code from '../images/code.svg';
 import { StyledContainer } from '../StyledComponents/StyledContainer';
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <StyledMain>
+      <StyledMain gap='14rem'>
         <StyledContainer height='85vh'>
           <StyledImg src={office} alt="office"/>
           </StyledContainer>

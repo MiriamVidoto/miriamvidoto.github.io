@@ -7,4 +7,8 @@ export const StyledHeader = styled.header`
   justify-content: space-around;
   align-items: center;
   height: 10vh;
+
+  a{
+    text-decoration: none;
+  }
 `;
