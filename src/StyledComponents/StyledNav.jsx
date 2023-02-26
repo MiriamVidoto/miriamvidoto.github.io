@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledNav = styled.nav`
-  background-color: #130233;
+  background-color: ${props => props.theme.colors.secundary};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,18 +20,19 @@ export const StyledNav = styled.nav`
   }
   
   a:hover{
-    background-color: #1b014cfe;
+    background-color: ${props => props.theme.colors.primary};
   }
 
   button{
     background-color: transparent;
-    width: 30%;
     color: white;
     border: none;
     font-size: 2rem;
+    text-align: center;
   }
 
   @media (max-width: 980px) {
+    flex-basis: 10%;
     flex-direction: column;
     /* margin-top: 40vw; */
     /* width: 100vw; */

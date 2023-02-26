@@ -7,7 +7,22 @@ export const StyledGlobal = createGlobalStyle`
     box-sizing: border-box;
     font-family: sans-serif;
   }
+
+  body {
+    background-color: ${props => props.theme.colors.primary};
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
 `;
+
+
+// @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100;400&display=swap');
 
 // :root {
 //   --cor0: #130233;
@@ -19,3 +34,4 @@ export const StyledGlobal = createGlobalStyle`
 //   --texto-pequeno: 'Comfortaa', cursive;
 //   --destaque: 'Dancing Script', cursive;
 // }
+

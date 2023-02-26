@@ -1,18 +1,25 @@
-import Header from "../components/Header";
-import Footer from '../components/Footer';
 import { StyledMain } from "../StyledComponents/StyledMain";
 import { StyledTag } from "../StyledComponents/StyledTag";
 import { StyledHeading } from "../StyledComponents/StyledHeading";
 import { StyledImg } from "../StyledComponents/StyledImg";
 import { sobre } from "../data/sobre"
-import picture from '../images/mih-escuro.png';
+import pictureLight from '../images/picture-light.png';
+import pictureDark from '../images/picture-dark.png';
+import PortfolioContext from '../context/PortfolioContext';
+import { useContext } from 'react';
+
 
 export default function Sobre() {
+  const { theme } = useContext(PortfolioContext);
   return (
     <>
-      <Header />
-        <StyledMain minHeight='85vh'>
-          <StyledImg src={picture}/>
+        <StyledMain minHeight='80vh'>
+        { (theme.title === 'light') &&(
+          <StyledImg src={pictureLight} alt="picture"/>
+        )}
+        { (theme.title === 'dark') &&(
+          <StyledImg src={pictureDark} alt="picture"/>
+        )}
           <StyledTag
             direction='column'
             basis='50%'
@@ -20,7 +27,6 @@ export default function Sobre() {
           >
             <StyledHeading
               level={'2'}
-              color={'#130233'}
               size={'1.8rem'}
             >
               {sobre.title}
@@ -32,7 +38,6 @@ export default function Sobre() {
             }
           </StyledTag>
         </StyledMain>
-      <Footer />
     </>
   );
 }

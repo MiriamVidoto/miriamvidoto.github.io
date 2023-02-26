@@ -4,7 +4,6 @@ export const StyledTag = styled.div`
   border-radius: ${(props) => (props.borderRadius ? props.borderRadius : '4px')};
   flex-direction: ${(props) => (props.direction ? props.direction : '')};
   flex-basis: ${(props) => (props.basis ? props.basis : '')};
-  background-color: ${(props) => (props.color ? props.color : 'white')};
   justify-content: ${(props) => (props.justifyContent ? props.justifyContent : '')};
   align-items: ${(props) => (props.alignItems ? props.alignItems : '')};
   margin: ${(props) => (props.margin ? props.margin : '4px')};
@@ -16,7 +15,8 @@ export const StyledTag = styled.div`
   box-shadow: ${(props) => (props.shadow ? props.shadow : '1px 1px 2px #00000041')};
   text-align: ${(props) => (props.textAlign ? props.textAlign : 'center')};
   display: flex;
-  color: #28292A;
+  background-color: ${(props) => (props.theme.colors.background)};
+  color: ${(props) => (props.theme.colors.text)};
   
   h2{
     margin: 12px;

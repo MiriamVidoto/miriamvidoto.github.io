@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-import Footer from '../components/Footer';
 import { StyledMain } from "../StyledComponents/StyledMain";
 import { StyledTag } from "../StyledComponents/StyledTag";
 import { StyledHeading } from "../StyledComponents/StyledHeading";
@@ -8,8 +6,7 @@ import { carreira } from "../data/carreira"
 export default function Carreira() {
   return (
     <>
-      <Header />
-      <StyledMain minHeight='85vh'>
+      <StyledMain minHeight='80vh'>
           <StyledTag
             direction='column'
             basis='60%'
@@ -17,7 +14,6 @@ export default function Carreira() {
           >
             <StyledHeading
               level={'2'}
-              color={'#130233'}
               size={'2.2rem'}
             >
               {carreira.title}
@@ -29,7 +25,6 @@ export default function Carreira() {
             }
           </StyledTag>
         </StyledMain>
-      <Footer />
     </>
   );
 }

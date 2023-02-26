@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-import Footer from '../components/Footer';
 import { StyledMain } from "../StyledComponents/StyledMain";
 import { StyledTag } from "../StyledComponents/StyledTag";
 import { StyledHeading } from "../StyledComponents/StyledHeading";
@@ -7,8 +5,7 @@ import { StyledHeading } from "../StyledComponents/StyledHeading";
 export default function Projetos() {
   return (
     <>
-      <Header />
-            <StyledMain minHeight='85vh'>
+            <StyledMain minHeight='80vh'>
           <StyledTag
             direction='column'
             basis='60%'
@@ -16,14 +13,12 @@ export default function Projetos() {
           >
             <StyledHeading
               level={'2'}
-              color={'#130233'}
               size={'2.2rem'}
             >
               Em construção
             </StyledHeading>
           </StyledTag>
         </StyledMain>
-      <Footer />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledHeader = styled.header`
-  background-color: #130233;
+  background-color: ${props => props.theme.colors.secundary};
   color: white;
   display: flex;
   justify-content: space-around;
@@ -11,4 +11,5 @@ export const StyledHeader = styled.header`
   a{
     text-decoration: none;
   }
+
 `;
