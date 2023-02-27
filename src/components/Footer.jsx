@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { StyledFooter } from "../StyledComponents/StyledFooter";
 import { StyledImg } from '../StyledComponents/StyledImg';
 import github from "../images/github-icon.svg";
@@ -15,13 +14,23 @@ function Footer() {
         justify='space-around'
         justifyMedia='center'
       >
-        <Link to=''><StyledImg src={github} alt='github' height='3vh'/></Link>
-        <Link to=''><StyledImg src={instagram} alt='instagram' height='3vh'/></Link>
-        <Link to=''><StyledImg src={linkedin} alt='linkedin' height='3vh'/></Link>
-        <Link to=''><StyledImg src={email} alt='email' height='3vh'/></Link>
-        <Link to=''><StyledImg src={whatsapp} alt='whatsapp' height='3vh'/></Link>
+        <a href='https://github.com/MiriamVidoto' target="_blank" rel="noreferrer">
+          <StyledImg src={github} alt='github' height='3vh'/>
+        </a>
+        <a href='https://www.instagram.com/miriam_vidoto/' target="_blank" rel="noreferrer">
+          <StyledImg src={instagram} alt='instagram' height='3vh'/>
+        </a>
+        <a href='https://www.linkedin.com/in/miriam-vidoto/' target="_blank" rel="noreferrer">
+          <StyledImg src={linkedin} alt='linkedin' height='3vh'/>
+        </a>
+        <a href='mailto:miriamvidoto.hdg@gmail.com' target="_blank" rel="noreferrer">
+          <StyledImg src={email} alt='email' height='3vh'/>
+        </a>
+        <a href='https://wa.me/13988534388' target="_blank" rel="noreferrer">
+          <StyledImg src={whatsapp} alt='whatsapp' height='3vh'/>
+        </a>
       </StyledContainer>
-        <span>© Miriam - 2023 - Todos os direitos reservados</span>
+        <span>© Desenvolvido por Miriam Vidoto - 2023 </span>
     </StyledFooter>
   );
 }

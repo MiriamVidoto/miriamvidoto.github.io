@@ -15,14 +15,14 @@ export default function Home() {
       <StyledMain gap='14rem'>
         <StyledContainer height='80vh'>
         { (theme.title === 'light') &&(
-          <StyledImg src={officeLight} alt="office"/>
+          <StyledImg src={officeLight} alt="office" height="100%" />
         )}
         { (theme.title === 'dark') &&(
-          <StyledImg src={officeDark} alt="office"/>
+          <StyledImg src={officeDark} alt="office" height="100%" />
         )} 
           </StyledContainer>
           <StyledContainer color={theme.colors.secundary} height='50vh'>
-          <StyledImg src={code} alt="code"/>
+          <StyledImg src={code} alt="code" height="100%" />
         </StyledContainer>
       </StyledMain>
     </>

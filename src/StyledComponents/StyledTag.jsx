@@ -24,7 +24,7 @@ export const StyledTag = styled.div`
 
   p{
     font-size: 1.2rem;
-    margin: 4px;
+    margin: 8px;
     text-align: left;
   }
 
