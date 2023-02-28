@@ -15,6 +15,5 @@ export const StyledMain = styled.main`
 
     @media (max-width: 1580px) {
     flex-direction: ${(props) => props.direction1580 ? props.direction1580 : ""};
-    gap: 0;
   }
 `;
