@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/static/js/main.2deb8142.js",
+    "static/js/787.693606d6.chunk.js": "/static/js/787.693606d6.chunk.js",
+    "static/media/office-dark.gif": "/static/media/office-dark.5c9e14fecd85a2c3e5da.gif",
+    "static/media/office-light.gif": "/static/media/office-light.9df8c76536928690a53e.gif",
+    "static/media/picture-light.png": "/static/media/picture-light.832aacff7aa1a99b2d44.png",
+    "static/media/picture-dark.png": "/static/media/picture-dark.2698b8fedfd8339f83db.png",
+    "static/media/code.svg": "/static/media/code.270c17e04a0b75ee99052feae4d61646.svg",
+    "static/media/about-dark.jpg": "/static/media/about-dark.04db21dec0341e448a6a.jpg",
+    "static/media/about-light.jpg": "/static/media/about-light.cbeba5ae52365d9d86ff.jpg",
+    "static/media/instagram-icon.svg": "/static/media/instagram-icon.5fb4df14dbd5b3b12b3bd5f5e869be43.svg",
+    "static/media/whatsapp-icon.svg": "/static/media/whatsapp-icon.1115ac94aa723ac956daa0a24294dcd2.svg",
+    "static/media/github-icon.svg": "/static/media/github-icon.2a719e4f4c4b447a7a25c6cdf187c1f9.svg",
+    "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.7399bfdae3d3526f2ba3b905a0145041.svg",
+    "static/media/email-icon.svg": "/static/media/email-icon.af60c72a9f8cfadfd50277a862b55fb4.svg",
+    "index.html": "/index.html",
+    "main.2deb8142.js.map": "/static/js/main.2deb8142.js.map",
+    "787.693606d6.chunk.js.map": "/static/js/787.693606d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2deb8142.js"
+  ]
+}
