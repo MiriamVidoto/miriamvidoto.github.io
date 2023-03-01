@@ -1,23 +1,14 @@
 import { StyledMain } from "../StyledComponents/StyledMain";
-import { StyledTag } from "../StyledComponents/StyledTag";
-import { StyledHeading } from "../StyledComponents/StyledHeading";
+import { projects } from "../data/projects";
+import CardProject from "../components/CardProject";
 
 export default function Projetos() {
   return (
     <>
-            <StyledMain minHeight='80vh'>
-          <StyledTag
-            direction='column'
-            basis='60%'
-            maxWidth='90%'
-          >
-            <StyledHeading
-              level={'2'}
-              size={'2.2rem'}
-            >
-              Em construção
-            </StyledHeading>
-          </StyledTag>
+            <StyledMain minHeight='80vh' gap='0.5rem' wrap='wrap'>
+          {
+            projects.map((project, index) => <CardProject key={index} project={project} />)
+          }
         </StyledMain>
     </>
   );

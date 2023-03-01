@@ -4,13 +4,14 @@ export const StyledMain = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: ${(props) => props.direction ? props.direction : "row"};
+  flex-wrap: ${(props) => props.wrap ? props.wrap : ""};
+  flex-direction: ${(props) => props.direction ? props.direction : ""};
   gap: ${(props) => props.gap ? props.gap : ""};
   min-height: ${(props) => props.minHeight ? props.minHeight : ""};
 
   @media (max-width: 980px) {
     flex-direction: column;
-    gap: 0;
+    gap: ${(props) => props.gap980 ? props.gap980 : ""};
   }
 
     @media (max-width: 1580px) {

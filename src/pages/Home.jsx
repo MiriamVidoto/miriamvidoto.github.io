@@ -12,7 +12,7 @@ export default function Home() {
     const { theme } = useContext(PortfolioContext);
   return (
     <>
-      <StyledMain gap='14rem'>
+      <StyledMain gap='14rem' gap980='0'>
         <StyledContainer height='80vh'>
         { (theme.title === 'light') &&(
           <StyledImg src={officeLight} alt="office" height="100%" />

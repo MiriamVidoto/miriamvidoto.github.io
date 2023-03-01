@@ -1,10 +1,10 @@
 import { StyledFooter } from "../StyledComponents/StyledFooter";
 import { StyledImg } from '../StyledComponents/StyledImg';
-import github from "../images/github-icon.svg";
-import instagram from "../images/instagram-icon.svg";
-import linkedin from "../images/linkedin-icon.svg";
-import email from "../images/email-icon.svg";
-import whatsapp from "../images/whatsapp-icon.svg";
+import github from "../images/redes-sociais/github-icon.svg";
+import instagram from "../images/redes-sociais/instagram-icon.svg";
+import linkedin from "../images/redes-sociais/linkedin-icon.svg";
+import email from "../images/redes-sociais/email-icon.svg";
+import whatsapp from "../images/redes-sociais/whatsapp-icon.svg";
 import { StyledContainer } from "../StyledComponents/StyledContainer";
 
 function Footer() {
