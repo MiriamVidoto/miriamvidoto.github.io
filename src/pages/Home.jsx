@@ -22,7 +22,7 @@ export default function Home() {
         )} 
           </StyledContainer>
           <StyledContainer color={theme.colors.secundary} height='50vh'>
-          <StyledImg src={code} alt="code" height="100%" />
+          <StyledImg src={code} alt="code" height="100%"  width='100%'/>
         </StyledContainer>
       </StyledMain>
     </>

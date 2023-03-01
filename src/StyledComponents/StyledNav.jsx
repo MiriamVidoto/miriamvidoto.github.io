@@ -31,19 +31,29 @@ export const StyledNav = styled.nav`
     text-align: center;
   }
 
+  button:hover{
+    cursor: pointer;
+  }
+
   @media (max-width: 980px) {
-    flex-basis: 10%;
     flex-direction: column;
-    /* margin-top: 40vw; */
-    /* width: 100vw; */
-    /* position: fixed; */
+    align-items: ${props => props.isOpen ? 'flex-end' : ''};
+    flex-basis: ${props => props.isOpen ? '' : '10%'};
+    width: ${props => props.isOpen ? '100vw' : '0'};
+    height: ${props => props.isOpen ? '50vh' : '0'};
+    position: ${props => props.isOpen ? 'absolute' : ''};
+    top: ${props => props.isOpen ? '0' : ''};
+    z-index: ${props => props.isOpen ? '1' : ''};
 
     a{
-      display: none;
       width: 100%;
-      height: 100%;
-      justify-content: flex-start;
+      background-color: ${props => props.theme.colors.secundary};
+      display: ${props => props.isOpen ? 'flex' : 'none'};
     }
+
+    button{
+      margin: ${props => props.isOpen ? '1rem' : '0'};
+    } 
   }
 
   @media (min-width: 980px) {

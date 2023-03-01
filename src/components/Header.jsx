@@ -10,7 +10,6 @@ import PortfolioContext from '../context/PortfolioContext';
 export default function Header() {
   const { colors } = useContext(ThemeContext);
   const { theme, toggleTheme} = useContext(PortfolioContext);
-  console.log(theme);
 
   return (
     <StyledHeader>

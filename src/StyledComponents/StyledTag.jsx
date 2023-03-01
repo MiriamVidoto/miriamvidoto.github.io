@@ -17,19 +17,45 @@ export const StyledTag = styled.div`
   display: flex;
   background-color: ${(props) => (props.theme.colors.background)};
   color: ${(props) => (props.theme.colors.text)};
+  position: ${(props) => (props.position ? props.position : '')};
+  top: ${(props) => (props.top ? props.top : '')};
+  z-index: ${(props) => (props.zIndex ? props.zIndex : '')};
+  
   
   h2{
-    margin: 12px;
+    margin: 0.3rem;
   }
 
   p{
-    font-size: 1.2rem;
-    margin: 8px;
+    font-size: 1rem;
+    margin: 1rem;
     text-align: left;
+    text-indent: 1rem;
   }
 
   a{
     text-decoration: none;
-    color: #28292A;
+    color: ${(props) => (props.theme.colors.text)};
+    text-align: right;
+    font-size: 0.7rem;
   }
+
+    button{
+    background-color: transparent;
+    color: ${(props) => (props.theme.colors.text)};
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+    @media (max-width: 980px) {
+    width: ${(props) => props.width980 ? props.width980 : "100%"};
+    }
 `;
