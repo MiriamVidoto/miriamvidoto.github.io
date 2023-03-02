@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.555e9a32.js",
+    "main.js": "/static/js/main.e92a08d5.js",
     "static/js/787.693606d6.chunk.js": "/static/js/787.693606d6.chunk.js",
     "static/media/office-dark.gif": "/static/media/office-dark.5c9e14fecd85a2c3e5da.gif",
     "static/media/office-light.gif": "/static/media/office-light.9df8c76536928690a53e.gif",
@@ -13,15 +13,36 @@
     "static/media/pixels-art.jpg": "/static/media/pixels-art.641b27c54adfdaebe31a.jpg",
     "static/media/tfc.jpg": "/static/media/tfc.3c7984b217442af9b96e.jpg",
     "static/media/my-pokedex.jpg": "/static/media/my-pokedex.f9f099ba54cf9aff7c8f.jpg",
+    "static/media/react.jpg": "/static/media/react.e3a056ee170ac7e89ff5.jpg",
     "static/media/tryunfo.jpg": "/static/media/tryunfo.808688a2c7528a11f6c9.jpg",
+    "static/media/mocha.jpg": "/static/media/mocha.fb98e729e5ca0e0013db.jpg",
+    "static/media/chai.jpg": "/static/media/chai.bbc8ee99b0e5abd344c3.jpg",
     "static/media/delivery-app.jpg": "/static/media/delivery-app.93b27fba643e9b78dfb8.jpg",
+    "static/media/redux.jpg": "/static/media/redux.43e9d0e225f67e65caea.jpg",
+    "static/media/jest.jpg": "/static/media/jest.fed7665288b299ca7403.jpg",
     "static/media/star-wars.jpg": "/static/media/star-wars.27bd2838b9fe4a76bf10.jpg",
+    "static/media/sequelize.jpg": "/static/media/sequelize.ce4e6da3eaaca5ba097a.jpg",
+    "static/media/docker.jpg": "/static/media/docker.61f9aaa9be0e8ca21b21.jpg",
     "static/media/trybe-wallet.jpg": "/static/media/trybe-wallet.3c1f227f33b03c5f5ad8.jpg",
+    "static/media/node.jpg": "/static/media/node.9a19f995633c5d556024.jpg",
     "static/media/recipes-app.jpg": "/static/media/recipes-app.20305f5f4ca72bbba6c0.jpg",
+    "static/media/github.jpg": "/static/media/github.214f8e8e609ea137a9e4.jpg",
+    "static/media/rtl.jpg": "/static/media/rtl.1d7aa6bd84d0303e4a16.jpg",
+    "static/media/css.jpg": "/static/media/css.90b5ceb870d3a2f13f3d.jpg",
+    "static/media/git.jpg": "/static/media/git.7f171e10a03b2fa35d00.jpg",
+    "static/media/sql.jpg": "/static/media/sql.75509b9751029d36ba92.jpg",
+    "static/media/html.jpg": "/static/media/html.8747de17e11a285a6353.jpg",
     "static/media/lessons-learned.jpg": "/static/media/lessons-learned.99d4a6c57ab3c2235ec1.jpg",
     "static/media/solar-system.jpg": "/static/media/solar-system.534581118eae85c58bdc.jpg",
     "static/media/trivia.jpg": "/static/media/trivia.dc1ee9bb63134867b325.jpg",
     "static/media/trybe-tunes.jpg": "/static/media/trybe-tunes.1ef7a10c85e6501ae84b.jpg",
+    "static/media/python.jpg": "/static/media/python.802735d5c2e6f618d199.jpg",
+    "static/media/express.jpg": "/static/media/express.635fc45b4e0163d6a75a.jpg",
+    "static/media/styled-components.jpg": "/static/media/styled-components.6f10dfc83f2ca7d5cc68.jpg",
+    "static/media/javascript.jpg": "/static/media/javascript.8adde3008c436a3e03d1.jpg",
+    "static/media/mongoose.jpg": "/static/media/mongoose.e761c87874c937aacd42.jpg",
+    "static/media/typescript.jpg": "/static/media/typescript.099a4e3d0ea0b7ee4a33.jpg",
+    "static/media/mongo.jpg": "/static/media/mongo.94483e7998ad61ece9f1.jpg",
     "static/media/web.svg": "/static/media/web.cffbe9d5b8564e922d8a4a96f79f2493.svg",
     "static/media/instagram-icon.svg": "/static/media/instagram-icon.5fb4df14dbd5b3b12b3bd5f5e869be43.svg",
     "static/media/whatsapp-icon.svg": "/static/media/whatsapp-icon.1115ac94aa723ac956daa0a24294dcd2.svg",
@@ -29,10 +50,10 @@
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.7399bfdae3d3526f2ba3b905a0145041.svg",
     "static/media/email-icon.svg": "/static/media/email-icon.af60c72a9f8cfadfd50277a862b55fb4.svg",
     "index.html": "/index.html",
-    "main.555e9a32.js.map": "/static/js/main.555e9a32.js.map",
+    "main.e92a08d5.js.map": "/static/js/main.e92a08d5.js.map",
     "787.693606d6.chunk.js.map": "/static/js/787.693606d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.555e9a32.js"
+    "static/js/main.e92a08d5.js"
   ]
 }
