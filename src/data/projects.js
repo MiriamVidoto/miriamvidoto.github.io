@@ -36,7 +36,7 @@ export const projects = [
   },
   {
     name: 'Trivia Game',
-    url: 'https://miriamvidoto.github.io/project-trivia--react-redux/',
+    url: 'https://miriamvidoto.github.io/project-trivia-react-redux/',
     github: 'https://github.com/MiriamVidoto/project-trivia-react-redux',
     image: 'trivia',
     description: 'Projeto desenvolvido em grupo, durante o curso de Desenvolvimento Web na Trybe, onde foi desenvolvida um game de perguntas de múltipla escolha. O projeto foi desenvolvido utilizando React com Redux.',
@@ -60,7 +60,7 @@ export const projects = [
     url: 'https://miriamvidoto.github.io/project-tryunfo/',
     github: 'https://github.com/MiriamVidoto/project-tryunfo',
     image: 'tryunfo',
-    description: 'Projeto desenvolvido durante o curso de Desenvolvimento Web na Trybe, onde foi desenvolvida uma aplicação web que permitisse ao usuário jogar um jogo de cartas. O projeto foi desenvolvido utilizando React.',
+    description: 'Projeto desenvolvido durante o curso de Desenvolvimento Web na Trybe, onde foi desenvolvida uma aplicação web que permite ao usuário criar cartas para um jogo estilo Super Trunfo. O projeto foi desenvolvido utilizando React.',
   },
   {
     name: 'Solar System',
