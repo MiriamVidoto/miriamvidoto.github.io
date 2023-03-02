@@ -18,7 +18,8 @@ export default function Sobre() {
           margin="2rem"
           borderRadius="10px"
           width="35vw"
-          widthMobile="70vw"
+          width980="70vw"
+          widthMobile="95vw"
         />
       )}
       { (theme.title === 'dark') &&(
@@ -28,7 +29,8 @@ export default function Sobre() {
           margin="2rem"
           borderRadius="10px"
           width="35vw"
-          widthMobile="70vw"
+          width980="70vw"
+          widthMobile="95vw"
         />
       )}
       </StyledMain>

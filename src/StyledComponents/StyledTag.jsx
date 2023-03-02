@@ -20,14 +20,19 @@ export const StyledTag = styled.div`
   position: ${(props) => (props.position ? props.position : '')};
   top: ${(props) => (props.top ? props.top : '')};
   z-index: ${(props) => (props.zIndex ? props.zIndex : '')};
+  transition: all 0.5s ease-in-out;
+  opacity: ${(props) => (props.opacity ? props.opacity : '')};
+
+
   
   
   h2{
     margin: 0.3rem;
+    font-size:${(props) => (props.fontSize ? props.fontSize : '2rem')};
   }
 
   p{
-    font-size: 1rem;
+    font-size: ${(props) => (props.fontSize ? props.fontSize : '1.2rem')};
     margin: 1rem;
     text-align: left;
     text-indent: 1rem;
@@ -57,5 +62,9 @@ export const StyledTag = styled.div`
 
     @media (max-width: 980px) {
     width: ${(props) => props.width980 ? props.width980 : "100%"};
+
+      p{
+        font-size: 1rem;
+      }
     }
 `;
